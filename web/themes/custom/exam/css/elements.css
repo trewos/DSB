@@ -80,9 +80,9 @@ footer {
   position: relative;
   flex-shrink: 0; }
 
-.block-social-media-links-block li {
+.block-social-media-links-block li, .block-field-blocknodeour-teamfield-social li {
   padding: 0.2em 3px !important; }
-.block-social-media-links-block span {
+.block-social-media-links-block span, .block-field-blocknodeour-teamfield-social span {
   font-size: 28px;
   color: #6e9bca; }
 

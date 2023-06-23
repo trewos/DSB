@@ -6,6 +6,43 @@
       font-size: 16px;
       letter-spacing: -1px;
       padding: 6px;
+      &:hover {
+        background-color: #5780ab;
+      }
+    }
+  }
+}
+@mixin line ($top , $width) {
+  &::before, &::after {
+    content: "";
+    display: flex;
+    position: absolute;
+    width: $width;
+    top: $top;
+    height: 1px;
+    background-color: grey;
+  }
+
+  &::before {
+    left: 0;
+  }
+
+  &::after {
+    right: 0;
+  }
+}
+
+@mixin detalis {
+  .views-field-field-button {
+    a {
+      color: white;
+      background-color: #373645;
+      font-size: 16px;
+      letter-spacing: -1px;
+      padding: 6px;
+      &:hover {
+        background-color: #272630;
+      }
     }
   }
 }
