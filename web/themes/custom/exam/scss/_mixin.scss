@@ -1,0 +1,11 @@
+@mixin button {
+  .views-field-field-button {
+    a {
+      color: white;
+      background-color: #6e9bca;
+      font-size: 16px;
+      letter-spacing: -1px;
+      padding: 6px;
+    }
+  }
+}

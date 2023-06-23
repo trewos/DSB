@@ -1,0 +1,15 @@
+global:
+  css:
+    theme:
+      css/elements.css : {}
+    component:
+      css/header.css : {}
+      css/main-content.css : {}
+      css/footer.css : {}
+content_type:
+  css:
+    component:
+      css/services.css : {}
+js-code:
+  js:
+    js/main.js: { }

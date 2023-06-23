@@ -1,0 +1,235 @@
+header {
+  width: 100%; }
+  header .header-menu {
+    display: flex;
+    justify-content: center;
+    max-width: 1280px;
+    margin: 0 auto; }
+    header .header-menu .region-header {
+      position: fixed;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      z-index: 5;
+      max-width: 1250px;
+      margin: 40px 15px 0;
+      background-color: white;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.4); }
+      header .header-menu .region-header .menu--main {
+        padding-left: 15px; }
+      header .header-menu .region-header .menu-item a {
+        font: 18px 'Alesand Regular', sans-serif;
+        text-transform: uppercase;
+        color: black; }
+      header .header-menu .region-header .menu-item:first-child a {
+        font-size: 0; }
+      header .header-menu .region-header a.is-active {
+        position: relative; }
+        header .header-menu .region-header a.is-active:before {
+          position: absolute;
+          content: "";
+          width: 100%;
+          height: 6px;
+          bottom: -46px;
+          left: 0;
+          background-color: #6e9bca; }
+      header .header-menu .region-header .block-system-branding-block {
+        text-align: center;
+        padding: 22px 36px 36px;
+        background-color: #373645; }
+        header .header-menu .region-header .block-system-branding-block .site-name a {
+          padding: 0;
+          font: 600 32px 'Peckham', sans-serif;
+          letter-spacing: 1px;
+          color: #658ab3; }
+        header .header-menu .region-header .block-system-branding-block .site-slogan {
+          margin-top: -8px;
+          font: 15px 'Mustica Pro', sans-serif;
+          color: #8e8d96; }
+      header .header-menu .region-header #block-button {
+        display: none;
+        margin: 0 15px;
+        padding: 15px 0;
+        cursor: pointer; }
+        header .header-menu .region-header #block-button .contextual {
+          top: 0; }
+        header .header-menu .region-header #block-button div {
+          display: block;
+          position: relative;
+          height: 4px;
+          border-radius: 3px;
+          width: 30px;
+          background-color: #373645; }
+          header .header-menu .region-header #block-button div::after, header .header-menu .region-header #block-button div::before {
+            content: "";
+            position: absolute;
+            border-radius: 3px;
+            height: 4px;
+            width: 30px;
+            background-color: #373645; }
+          header .header-menu .region-header #block-button div::after {
+            bottom: 7px; }
+          header .header-menu .region-header #block-button div::before {
+            top: 7px; }
+      header .header-menu .region-header .menu {
+        display: flex;
+        flex-direction: row; }
+        header .header-menu .region-header .menu li {
+          padding-right: 24px; }
+          header .header-menu .region-header .menu li:first-child {
+            padding: 0; }
+            header .header-menu .region-header .menu li:first-child a {
+              padding: 30px 15px;
+              margin-right: 30px; }
+            header .header-menu .region-header .menu li:first-child a.is-active:before {
+              bottom: -29px; }
+      header .header-menu .region-header .search-block-form {
+        margin-left: 25px;
+        padding-right: 32px; }
+        header .header-menu .region-header .search-block-form form {
+          display: flex;
+          align-items: center;
+          height: 40px;
+          padding: 0 0 0 8px;
+          border: 1px solid #dedede; }
+          header .header-menu .region-header .search-block-form form .form-item {
+            margin: 0; }
+          header .header-menu .region-header .search-block-form form .form-submit {
+            height: 40px;
+            width: 40px;
+            margin-top: 3px;
+            background-image: url("../img/search-icon.svg");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-color: transparent;
+            border-left: 1px solid #dedede; }
+  header .header-background {
+    position: relative; }
+    header .header-background .region-background .field__label {
+      display: none; }
+    header .header-background .region-background img {
+      width: 100%;
+      height: auto; }
+    header .header-background .region-text {
+      position: absolute;
+      top: 42%;
+      left: 20.5%;
+      width: 400px;
+      text-transform: uppercase; }
+      header .header-background .region-text #block-text {
+        font-size: 68px;
+        color: white;
+        letter-spacing: -0.050em; }
+      header .header-background .region-text #block-text-2 {
+        margin-top: -4px;
+        font-size: 40px;
+        color: black;
+        word-spacing: -3px;
+        letter-spacing: -0.020em; }
+      header .header-background .region-text #block-text-3 {
+        margin-top: 2px;
+        width: 370px;
+        font-size: 14px;
+        color: #658ab3;
+        letter-spacing: -0.020em;
+        padding: 0 4px;
+        line-height: 16px; }
+
+@media (max-width: 1280px) {
+  header .header-menu .region-header {
+    max-width: 992px; }
+    header .header-menu .region-header .block-system-branding-block .site-name a {
+      font-size: 26px; }
+    header .header-menu .region-header .block-system-branding-block .site-slogan {
+      margin-top: -6px;
+      font-size: 13px; }
+    header .header-menu .region-header #block-button {
+      display: flex; }
+    header .header-menu .region-header .menu--main {
+      display: none;
+      padding: 0; }
+    header .header-menu .region-header .menu--main.active {
+      top: 100%;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      background-color: white;
+      border: 1px solid #373645; }
+      header .header-menu .region-header .menu--main.active .menu {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0; }
+        header .header-menu .region-header .menu--main.active .menu li {
+          padding: 5px;
+          text-align: center; }
+          header .header-menu .region-header .menu--main.active .menu li a.is-active:before {
+            height: 4px;
+            bottom: 0; }
+          header .header-menu .region-header .menu--main.active .menu li:first-child {
+            padding: 20px 5px; }
+            header .header-menu .region-header .menu--main.active .menu li:first-child a {
+              margin: 0; }
+            header .header-menu .region-header .menu--main.active .menu li:first-child a.is-active:before {
+              height: 4px;
+              bottom: 8px; }
+  header .header-background .region-text {
+    top: 38%;
+    left: 15.5%;
+    width: 250px; }
+    header .header-background .region-text #block-text {
+      font-size: 37px; }
+    header .header-background .region-text #block-text-2 {
+      font-size: 26px;
+      word-spacing: -1; }
+    header .header-background .region-text #block-text-3 {
+      width: 210px;
+      font-size: 14px;
+      padding: 0 2px;
+      line-height: 14px; } }
+@media (max-width: 992px) {
+  header .header-menu .region-header {
+    max-width: 680px; }
+    header .header-menu .region-header .block-system-branding-block .site-name a {
+      font-size: 20px; }
+    header .header-menu .region-header .block-system-branding-block .site-slogan {
+      margin-top: -4px;
+      font-size: 13px; } }
+@media (max-width: 680px) {
+  header .header-menu .region-header {
+    margin: 5px 15px;
+    padding: 0;
+    max-width: 320px;
+    flex-direction: column; }
+    header .header-menu .region-header .block-system-branding-block {
+      padding: 12px 22px 12px; }
+    header .header-menu .region-header .block-social-media-links-block {
+      margin-top: 2px; }
+    header .header-menu .region-header #block-button {
+      order: 3; }
+    header .header-menu .region-header .search-block-form {
+      margin: 0;
+      padding: 0;
+      order: 1;
+      width: 140px; }
+      header .header-menu .region-header .search-block-form .form-search {
+        width: 90px; }
+  header .header-background .region-text {
+    top: 38.5%;
+    left: 24.5%;
+    width: 140px; }
+    header .header-background .region-text #block-text {
+      font-size: 18px; }
+    header .header-background .region-text #block-text-2 {
+      margin: -1px;
+      font-size: 11px;
+      word-spacing: 0; }
+    header .header-background .region-text #block-text-3 {
+      margin: 2px 0 0 -1px;
+      padding: 0;
+      width: 90px;
+      font-size: 6px;
+      line-height: 6px; } }
+
+/*# sourceMappingURL=header.css.map */

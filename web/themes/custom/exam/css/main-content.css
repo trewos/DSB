@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'Peckham';
+  src: url("../font/Peckham-SemiBold.woff2") format("woff2"), url("../font/Peckham-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Mustica Pro';
+  src: url("../font/MusticaPro-Light.woff2") format("woff2"), url("../font/MusticaPro-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Alesand Regular';
+  src: url("../font/AlesandRegular.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Alesand Bold';
+  src: url("../font/AlesandBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap; }
+.main__content {
+  max-width: 1280px;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .main__content .block-views-blockabout-block-1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 106px 0 100px; }
+    .main__content .block-views-blockabout-block-1 .view-content {
+      padding: 15px 0;
+      border-bottom: 5px solid #6e9bca;
+      border-top: 5px solid #000000; }
+      .main__content .block-views-blockabout-block-1 .view-content .views-row {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .main__content .block-views-blockabout-block-1 .view-content .views-row .views-field-title {
+          font-size: 30px;
+          font-weight: bold;
+          letter-spacing: -0.8px; }
+        .main__content .block-views-blockabout-block-1 .view-content .views-row .views-field-body {
+          padding: 0 44px 0 24px;
+          font-size: 20px;
+          letter-spacing: -0.6px; }
+        .main__content .block-views-blockabout-block-1 .view-content .views-row .views-field-field-button a {
+          color: white;
+          background-color: #6e9bca;
+          font-size: 16px;
+          letter-spacing: -1px;
+          padding: 6px; }
+    .main__content .block-views-blockabout-block-1:before {
+      top: 0;
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 5px;
+      background: linear-gradient(90deg, #6e9bca 33%, #000000 5%, #cccccc 17%, #cccccc 55%); }
+  .main__content .block-views-blockservices-block-1 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    text-transform: uppercase; }
+    .main__content .block-views-blockservices-block-1 h2 {
+      font-size: 28px;
+      font-weight: 700; }
+      .main__content .block-views-blockservices-block-1 h2:after {
+        content: ""; }
+    .main__content .block-views-blockservices-block-1 .view-content {
+      padding: 100px 0;
+      align-items: center; }
+      .main__content .block-views-blockservices-block-1 .view-content .views-row {
+        padding: 0 15px; }
+        .main__content .block-views-blockservices-block-1 .view-content .views-row:first-child, .main__content .block-views-blockservices-block-1 .view-content .views-row:last-child {
+          padding: 0; }
+        .main__content .block-views-blockservices-block-1 .view-content .views-row .views-field-field-image {
+          padding-bottom: 30px; }
+        .main__content .block-views-blockservices-block-1 .view-content .views-row .views-field-title {
+          font-size: 23px;
+          letter-spacing: -2px;
+          margin-bottom: 15px;
+          color: #3e3d4c; }
+        .main__content .block-views-blockservices-block-1 .view-content .views-row .views-field-body {
+          font-size: 12px;
+          line-height: 16px;
+          margin-bottom: 30px;
+          color: #dedede; }
+        .main__content .block-views-blockservices-block-1 .view-content .views-row .views-field-field-button a {
+          color: white;
+          background-color: #6e9bca;
+          font-size: 16px;
+          letter-spacing: -1px;
+          padding: 6px; }
+  .main__content .view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .main__content .view .view-content {
+      display: flex;
+      flex-direction: row; }
+
+/*# sourceMappingURL=main-content.css.map */

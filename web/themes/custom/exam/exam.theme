@@ -1,0 +1,27 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming in the Classy theme.
+ *
+ * No changes that impact functionality should be made to this file, as Classy
+ * will be deprecated in Drupal 9. Changes should instead be made in the core
+ * themes Bartik, Seven, Claro and/or Umami.
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\views\Form\ViewsForm;
+
+/**
+ * Implements template_preprocess_menu_link() for menu links.
+ */
+function exam_preprocess_menu_link(&$variables) {
+
+  $current_path = \Drupal::service('path.current')->getPath();
+  $menu_link_url = $variables['element']['#href'];
+  if ($current_path == $menu_link_url) {
+    $variables['element']['#attributes']['class'][] = 'is-active';
+  }
+}
+
+

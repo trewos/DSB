@@ -1,0 +1,97 @@
+@import "fonts";
+@import "mixin";
+
+.main__content {
+  max-width: 1280px;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .block-views-blockabout-block-1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 106px 0 100px;
+    .view-content {
+      padding: 15px 0;
+      border-bottom: 5px solid #6e9bca;
+      border-top: 5px solid #000000;
+      .views-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .views-field-title {
+          font-size: 30px;
+          font-weight: bold;
+          letter-spacing: -0.8px;
+        }
+        .views-field-body {
+          padding: 0 44px 0 24px;
+          font-size: 20px;
+          letter-spacing: -0.6px;
+        }
+        @include button();
+      }
+    }
+    &:before {
+      top: 0;
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 5px;
+      background: linear-gradient(90deg, #6e9bca 33%, #000000 5%,  #cccccc 17%, #cccccc 55%);
+    }
+  }
+  .block-views-blockservices-block-1 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    h2 {
+      font-size: 28px;
+      font-weight: 700;
+      &:after {
+        content: "";
+      }
+    }
+    .view-content {
+      padding: 100px 0;
+      align-items: center;
+      .views-row {
+        padding: 0 15px;
+        &:first-child, &:last-child {
+          padding: 0;
+        }
+        .views-field-field-image {
+          padding-bottom: 30px;
+        }
+        .views-field-title {
+          font-size: 23px;
+          letter-spacing: -2px;
+          margin-bottom: 15px;
+          color: #3e3d4c;
+        }
+        .views-field-body {
+          font-size: 12px;
+          line-height: 16px;
+          margin-bottom: 30px;
+          color: #dedede;
+        }
+        @include button();
+      }
+    }
+  }
+  .view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .view-content {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}
