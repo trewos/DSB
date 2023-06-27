@@ -72,37 +72,32 @@ header {
       #block-button {
         display: none;
         margin: 0 15px;
-        padding: 15px 0;
         cursor: pointer;
+        position: relative;
+        height: 4px;
+        border-radius: 3px;
+        width: 30px;
+        background-color: #373645;
+
+        &::after, &::before {
+          content: "";
+          position: absolute;
+          border-radius: 3px;
+          height: 4px;
+          width: 30px;
+          background-color: #373645;
+        }
+
+        &::after {
+          bottom: 7px;
+        }
+
+        &::before {
+          top: 7px;
+        }
 
         .contextual {
           top: 0;
-        }
-
-        div {
-          display: block;
-          position: relative;
-          height: 4px;
-          border-radius: 3px;
-          width: 30px;
-          background-color: #373645;
-
-          &::after, &::before {
-            content: "";
-            position: absolute;
-            border-radius: 3px;
-            height: 4px;
-            width: 30px;
-            background-color: #373645;
-          }
-
-          &::after {
-            bottom: 7px;
-          }
-
-          &::before {
-            top: 7px;
-          }
         }
       }
 
@@ -347,6 +342,7 @@ header {
         }
 
         #block-button {
+          margin: 15px;
           order: 3;
         }
 

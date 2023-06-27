@@ -87,14 +87,18 @@ h6 {
 }
 
 .page {
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
 }
 
 main {
+  display: flex;
   flex-grow: 0;
 }
 
 footer {
+  margin-top: auto;
   position: relative;
   flex-shrink: 0;
 }
@@ -116,6 +120,23 @@ footer {
       .field--label-hidden {
         display: none;
       }
+    }
+  }
+}
+
+.pager {
+  .pager__item {
+    &.is-active {
+      a {
+        padding: 6px 10px;
+        font-weight: 600;
+        border-radius: 50%;
+        background-color: rgba(155, 155, 155, 0.4);
+      }
+    }
+
+    a {
+      color: #9b9b9b;
     }
   }
 }

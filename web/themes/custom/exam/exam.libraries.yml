@@ -6,10 +6,11 @@ global:
       css/header.css : {}
       css/main-content.css : {}
       css/footer.css : {}
+      css/pages.css : {}
 content_type:
   css:
     component:
-      css/services.css : {}
+      css/slider.css : {}
 js-code:
   js:
     js/main.js: { }

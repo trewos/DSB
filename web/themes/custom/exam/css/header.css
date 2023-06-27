@@ -49,28 +49,25 @@ header {
       header .header-menu .region-header #block-button {
         display: none;
         margin: 0 15px;
-        padding: 15px 0;
-        cursor: pointer; }
-        header .header-menu .region-header #block-button .contextual {
-          top: 0; }
-        header .header-menu .region-header #block-button div {
-          display: block;
-          position: relative;
-          height: 4px;
+        cursor: pointer;
+        position: relative;
+        height: 4px;
+        border-radius: 3px;
+        width: 30px;
+        background-color: #373645; }
+        header .header-menu .region-header #block-button::after, header .header-menu .region-header #block-button::before {
+          content: "";
+          position: absolute;
           border-radius: 3px;
+          height: 4px;
           width: 30px;
           background-color: #373645; }
-          header .header-menu .region-header #block-button div::after, header .header-menu .region-header #block-button div::before {
-            content: "";
-            position: absolute;
-            border-radius: 3px;
-            height: 4px;
-            width: 30px;
-            background-color: #373645; }
-          header .header-menu .region-header #block-button div::after {
-            bottom: 7px; }
-          header .header-menu .region-header #block-button div::before {
-            top: 7px; }
+        header .header-menu .region-header #block-button::after {
+          bottom: 7px; }
+        header .header-menu .region-header #block-button::before {
+          top: 7px; }
+        header .header-menu .region-header #block-button .contextual {
+          top: 0; }
       header .header-menu .region-header .menu {
         display: flex;
         flex-direction: row; }
@@ -207,6 +204,7 @@ header {
     header .header-menu .region-header .block-social-media-links-block {
       margin-top: 2px; }
     header .header-menu .region-header #block-button {
+      margin: 15px;
       order: 3; }
     header .header-menu .region-header .search-block-form {
       margin: 0;
