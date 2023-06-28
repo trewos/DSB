@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5844b347496ad2cf75d63235e87267d7",
+    "content-hash": "e3fb486547c1fb7dd9bfff66b6dfd5ee",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2151,6 +2151,76 @@
             }
         },
         {
+            "name": "drupal/custom_search",
+            "version": "1.0.0-beta9",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/custom_search.git",
+                "reference": "8.x-1.0-beta9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/custom_search-8.x-1.0-beta9.zip",
+                "reference": "8.x-1.0-beta9",
+                "shasum": "9b8b556db85d528d660875f7f5badcf16379d61f"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.0-beta9",
+                    "datestamp": "1679409683",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Jérôme Danthinne",
+                    "homepage": "https://www.drupal.org/u/jdanthinne",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Mario Steinitz",
+                    "homepage": "https://www.drupal.org/u/mario-steinitz",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Mario Steinitz",
+                    "homepage": "https://www.drupal.org/user/2536014"
+                },
+                {
+                    "name": "rajeshwari10",
+                    "homepage": "https://www.drupal.org/user/3270754"
+                },
+                {
+                    "name": "rooby",
+                    "homepage": "https://www.drupal.org/user/350381"
+                },
+                {
+                    "name": "suzymasri",
+                    "homepage": "https://www.drupal.org/user/2428842"
+                }
+            ],
+            "description": "This module alters the default search box in many ways.",
+            "homepage": "https://www.drupal.org/project/custom_search",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/custom_search",
+                "issues": "https://www.drupal.org/project/issues/custom_search"
+            }
+        },
+        {
             "name": "drupal/draggableviews",
             "version": "2.1.3",
             "source": {
@@ -2544,6 +2614,105 @@
                 "source": "https://git.drupalcode.org/project/google_map_field",
                 "issues": "http://drupal.org/project/google_map_field",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
+            "name": "drupal/image_link_formatter",
+            "version": "2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/image_link_formatter.git",
+                "reference": "2.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/image_link_formatter-2.1.1.zip",
+                "reference": "2.1.1",
+                "shasum": "1e793bd0747d9e1767a06cb21c50d9e11cb47b28"
+            },
+            "require": {
+                "drupal/core": "^9.3 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.1.1",
+                    "datestamp": "1663201808",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "David Suissa (DYdave)",
+                    "homepage": "https://www.drupal.org/u/dydave",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "rogical",
+                    "homepage": "https://www.drupal.org/user/1161802"
+                }
+            ],
+            "description": "Display images wrapped within a link provided by a field.",
+            "homepage": "https://www.drupal.org/project/image_link_formatter",
+            "keywords": [
+                "Drupal",
+                "Formatter",
+                "Responsive"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/image_link_formatter",
+                "issues": "https://www.drupal.org/project/issues/image_link_formatter"
+            }
+        },
+        {
+            "name": "drupal/image_url_formatter",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/image_url_formatter.git",
+                "reference": "8.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/image_url_formatter-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "f5909a9ae4e191af4a855535f090fd2a0dd94148"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.1",
+                    "datestamp": "1682525888",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "g089h515r806",
+                    "homepage": "https://www.drupal.org/user/174740"
+                }
+            ],
+            "description": "Add an URL formatter for image field.",
+            "homepage": "https://www.drupal.org/project/image_url_formatter",
+            "support": {
+                "source": "https://git.drupalcode.org/project/image_url_formatter"
             }
         },
         {
@@ -8966,7 +9135,9 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "drupal/button_field": 15,
         "drupal/cheeseburger_menu": 5,
+        "drupal/custom_search": 10,
         "drupal/entity_clone": 10,
         "drupal/like": 10,
         "drupal/phone_number": 15,

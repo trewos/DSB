@@ -24,7 +24,15 @@
     }
     .view-content {
       width: 1250px;
+      a {
+        position: absolute;
+        font-size: 0;
+        top: 5px;
+        padding: 30px 70px;
+        right: 5px;
+      }
       img {
+        position: relative;
         display: block;
         text-align: center;
         margin: 0 auto;

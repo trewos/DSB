@@ -1,0 +1,330 @@
+@import "mixin";
+
+.node--type-initial {
+  display: flex;
+  max-width: 1280px;
+  margin: 15px;
+  flex-direction: column;
+
+  .node__content {
+    .field--name-title {
+      text-transform: uppercase;
+      display: flex;
+      justify-content: center;
+      width: 1250px;
+      font-size: 28px;
+      font-weight: 700;
+      margin: 0 auto 40px;
+      position: relative;
+
+      @include line(50%, 44.3%);
+    }
+
+    text-transform: uppercase;
+    text-align: justify;
+    justify-content: center;
+    font-size: 24px;
+    line-height: 26px;
+
+    p {
+      margin: 25px 0;
+    }
+  }
+}
+
+.node--type-services , .node--type-projects {
+  max-width: 1280px;
+  .node__content {
+    .block-field-blocknodeservicestitle, .block-field-blocknodeprojectstitle {
+      margin: 0 0 30px 5px;
+      font-weight: 700;
+    }
+    display: flex;
+    max-width: 1280px;
+    margin: 30px;
+    text-align: justify;
+    flex-direction: column;
+
+    img {
+      width: 175px;
+      height: 155px;
+      float: right;
+      margin: -30px 65px 30px 40px;
+    }
+
+    text-transform: capitalize;
+    justify-content: center;
+    font-size: 24px;
+    line-height: 26px;
+
+    p {
+      margin: 15px 0;
+    }
+  }
+}
+
+.node--type-projects {
+  .node__content {
+    img {
+      width: 240px;
+      height: 240px;
+    }
+  }
+}
+
+.node--view-mode-full.node--type-our-team, .node--view-mode-full.node--type-news {
+  max-width: 1280px;
+  .node__content {
+    .block-field-blocknodeour-teamtitle , .block-field-blocknodenewstitle {
+      margin: 0 0 30px 5px;
+      font-weight: 700;
+    }
+
+    display: flex;
+    max-width: 1280px;
+    margin: 30px;
+    text-align: justify;
+    flex-direction: column;
+    text-transform: capitalize;
+    justify-content: center;
+    font-size: 24px;
+    line-height: 26px;
+
+    p {
+      margin: 15px 0;
+    }
+    .block-field-blocknodeour-teamfield-image, .block-field-blocknodeour-teamfield-position, .block-extra-field-blocknodeour-teamlikeit {
+      display: flex;
+      margin-bottom: 12px;
+    }
+    .social-media-links--platforms {
+      display: flex;
+    }
+  }
+}
+
+.node--view-mode-full.node--type-news {
+  .node__content {
+    .block-field-blocknodenewsfield-month, .block-field-blocknodenewsfield-day , .block-field-blocknodenewsfield-year {
+      text-align: center;
+    }
+    .field--name-field-image {
+      margin: 15px;
+    }
+    .block-field-blocknodenewsfield-date-published {
+      text-transform: uppercase;
+    }
+    .field--name-field-date-published {
+      float: right;
+    }
+    .field--name-field-news-category {
+      a {
+        text-transform: uppercase;
+        color: #337ab7;
+      }
+    }
+  }
+}
+
+@media (max-width: 1310px) {
+  .node--type-initial {
+    max-width: 798px;
+    .node__content {
+      .field--name-title {
+        width: 768px;
+        @include line(50%, 34.3%);
+      }
+
+      font-size: 20px;
+      line-height: 22px;
+
+      p {
+        margin: 20px 0;
+      }
+    }
+  }
+  .node--type-services , .node--type-projects {
+    max-width: 798px;
+    .node__content {
+      .block-field-blocknodeservicestitle , .block-field-blocknodeprojectstitle {
+        margin: 0 0 25px 5px;
+        font-weight: 700;
+      }
+      display: flex;
+      max-width: 798px;
+      margin: 30px;
+      text-align: justify;
+      flex-direction: column;
+
+      img {
+        width: 155px;
+        height: 135px;
+        float: right;
+        margin: -20px 45px 20px 30px;
+      }
+
+      .field--name-title {
+      }
+
+      font-size: 20px;
+      line-height: 22px;
+
+      p {
+        margin: 15px 0;
+      }
+    }
+  }
+  .node--type-projects {
+    .node__content {
+      img {
+        width: 200px;
+        height: 200px;
+      }
+    }
+  }
+  .node--view-mode-full.node--type-our-team {
+    img {
+      width: 250px;
+      height: 250px;
+    }
+  }
+  .node--view-mode-full.node--type-our-team, .node--view-mode-full.node--type-news {
+    max-width: 798px;
+    .node__content {
+
+      .block-field-blocknodeour-teamtitle, .block-field-blocknodenewstitle {
+        margin: 0 0 25px 5px;
+      }
+      max-width: 798px;
+      font-size: 20px;
+      line-height: 22px;
+
+      p {
+        margin: 15px 0;
+      }
+      .block-field-blocknodeour-teamfield-image, .block-field-blocknodeour-teamfield-position, .block-extra-field-blocknodeour-teamlikeit {
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .node--view-mode-full.node--type-news {
+    .field--name-field-image {
+      margin: 15px;
+    }
+  }
+}
+@media (max-width: 828px) {
+  .node--type-initial {
+    max-width: 290px;
+    .node__content {
+      .field--name-title {
+        width: 260px;
+        @include line(50%, 28.3%);
+      }
+
+      font-size: 16px;
+      line-height: 20px;
+
+      p {
+        margin: 15px 0;
+      }
+    }
+  }
+  .node--type-services , .node--type-projects {
+    max-width: 290px;
+    .node__content {
+      .block-field-blocknodeservicestitle , .block-field-blocknodeprojectstitle {
+        margin: 0;
+        text-align: center;
+        font-weight: 700;
+      }
+      display: flex;
+      max-width: 290px;
+      margin: 20px;
+      text-align: justify;
+      flex-direction: column;
+
+      .field--name-field-image {
+        display: flex;
+        justify-content: center;
+      }
+      img {
+        width: 145px;
+        height: 125px;
+        float: none;
+        margin: 15px
+      }
+
+      font-size: 16px;
+      line-height: 20px;
+
+      p {
+        margin: 15px 0;
+      }
+    }
+  }
+  .node--type-projects {
+    .node__content {
+      img {
+        width: 190px;
+        height: 190px;
+      }
+    }
+  }
+  .node--view-mode-full.node--type-our-team, .node--view-mode-full.node--type-news {
+    max-width: 798px;
+    .node__content {
+
+      .block-field-blocknodeour-teamtitle, .block-field-blocknodenewstitle {
+        margin: 0;
+      }
+
+      max-width: 290px;
+      font-size: 16px;
+      line-height: 20px;
+
+      p {
+        margin: 15px 0;
+      }
+      .block-field-blocknodeour-teamfield-image, .block-field-blocknodeour-teamfield-position, .block-extra-field-blocknodeour-teamlikeit, .block-field-blocknodeour-teamtitle {
+        margin-bottom: 5px;
+        justify-content: center;
+        text-align: center;
+      }
+      .social-media-links--platforms {
+        justify-content: center;
+      }
+    }
+  }
+  .node--view-mode-full.node--type-our-team {
+    img {
+      width: 200px;
+      height: 200px;
+    }
+  }
+  .node--view-mode-full.node--type-news {
+    .block-field-blocknodenewstitle {
+      display: flex;
+      justify-content: center;
+    }
+    .field--name-field-image {
+      display: flex;
+      justify-content: center;
+      margin: 15px;
+    }
+    .field--type-text {
+      display: flex;
+      justify-content: center;
+    }
+    .field--name-field-date-published {
+      display: flex;
+      float: none;
+    }
+    .layout--twocol-section--50-50 {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+    }
+  }
+}

@@ -80,26 +80,32 @@ header {
               margin-right: 30px; }
             header .header-menu .region-header .menu li:first-child a.is-active:before {
               bottom: -29px; }
-      header .header-menu .region-header .search-block-form {
+      header .header-menu .region-header .block-views-exposed-filter-blocksearch-page-page-1 {
         margin-left: 25px;
         padding-right: 32px; }
-        header .header-menu .region-header .search-block-form form {
-          display: flex;
-          align-items: center;
-          height: 40px;
-          padding: 0 0 0 8px;
-          border: 1px solid #dedede; }
-          header .header-menu .region-header .search-block-form form .form-item {
-            margin: 0; }
-          header .header-menu .region-header .search-block-form form .form-submit {
+        header .header-menu .region-header .block-views-exposed-filter-blocksearch-page-page-1 .form-item-search-api-fulltext {
+          position: relative; }
+          header .header-menu .region-header .block-views-exposed-filter-blocksearch-page-page-1 .form-item-search-api-fulltext input {
+            width: 210px;
+            display: flex;
+            align-items: center;
             height: 40px;
-            width: 40px;
-            margin-top: 3px;
-            background-image: url("../img/search-icon.svg");
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-color: transparent;
-            border-left: 1px solid #dedede; }
+            padding: 0 0 0 8px;
+            border: 1px solid #dedede; }
+        header .header-menu .region-header .block-views-exposed-filter-blocksearch-page-page-1 .form-item {
+          margin: 0; }
+        header .header-menu .region-header .block-views-exposed-filter-blocksearch-page-page-1 .form-submit {
+          position: absolute;
+          right: 35px;
+          top: -3px;
+          height: 40px;
+          width: 40px;
+          margin-top: 3px;
+          background-image: url("../img/search-icon.svg");
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-color: transparent;
+          border-left: 1px solid #dedede; }
   header .header-background {
     position: relative; }
     header .header-background .region-background .field__label {
@@ -206,13 +212,15 @@ header {
     header .header-menu .region-header #block-button {
       margin: 15px;
       order: 3; }
-    header .header-menu .region-header .search-block-form {
+    header .header-menu .region-header .block-views-exposed-filter-blocksearch-page-page-1 {
       margin: 0;
       padding: 0;
       order: 1;
       width: 140px; }
-      header .header-menu .region-header .search-block-form .form-search {
-        width: 90px; }
+      header .header-menu .region-header .block-views-exposed-filter-blocksearch-page-page-1 .form-item-search-api-fulltext input {
+        width: 140px; }
+      header .header-menu .region-header .block-views-exposed-filter-blocksearch-page-page-1 .form-submit {
+        right: 0; }
   header .header-background .region-text {
     top: 38.5%;
     left: 24.5%;

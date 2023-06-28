@@ -28,7 +28,14 @@
       right: 0; }
   .slider .block-views-blockclient-block-1 .view-content {
     width: 1250px; }
+    .slider .block-views-blockclient-block-1 .view-content a {
+      position: absolute;
+      font-size: 0;
+      top: 5px;
+      padding: 30px 70px;
+      right: 5px; }
     .slider .block-views-blockclient-block-1 .view-content img {
+      position: relative;
       display: block;
       text-align: center;
       margin: 0 auto;

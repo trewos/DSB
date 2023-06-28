@@ -1,0 +1,257 @@
+.node--type-initial {
+  display: flex;
+  max-width: 1280px;
+  margin: 15px;
+  flex-direction: column; }
+  .node--type-initial .node__content {
+    text-transform: uppercase;
+    text-align: justify;
+    justify-content: center;
+    font-size: 24px;
+    line-height: 26px; }
+    .node--type-initial .node__content .field--name-title {
+      text-transform: uppercase;
+      display: flex;
+      justify-content: center;
+      width: 1250px;
+      font-size: 28px;
+      font-weight: 700;
+      margin: 0 auto 40px;
+      position: relative; }
+      .node--type-initial .node__content .field--name-title::before, .node--type-initial .node__content .field--name-title::after {
+        content: "";
+        display: flex;
+        position: absolute;
+        width: 44.3%;
+        top: 50%;
+        height: 1px;
+        background-color: grey; }
+      .node--type-initial .node__content .field--name-title::before {
+        left: 0; }
+      .node--type-initial .node__content .field--name-title::after {
+        right: 0; }
+    .node--type-initial .node__content p {
+      margin: 25px 0; }
+
+.node--type-services, .node--type-projects {
+  max-width: 1280px; }
+  .node--type-services .node__content, .node--type-projects .node__content {
+    display: flex;
+    max-width: 1280px;
+    margin: 30px;
+    text-align: justify;
+    flex-direction: column;
+    text-transform: capitalize;
+    justify-content: center;
+    font-size: 24px;
+    line-height: 26px; }
+    .node--type-services .node__content .block-field-blocknodeservicestitle, .node--type-services .node__content .block-field-blocknodeprojectstitle, .node--type-projects .node__content .block-field-blocknodeservicestitle, .node--type-projects .node__content .block-field-blocknodeprojectstitle {
+      margin: 0 0 30px 5px;
+      font-weight: 700; }
+    .node--type-services .node__content img, .node--type-projects .node__content img {
+      width: 175px;
+      height: 155px;
+      float: right;
+      margin: -30px 65px 30px 40px; }
+    .node--type-services .node__content p, .node--type-projects .node__content p {
+      margin: 15px 0; }
+
+.node--type-projects .node__content img {
+  width: 240px;
+  height: 240px; }
+
+.node--view-mode-full.node--type-our-team, .node--view-mode-full.node--type-news {
+  max-width: 1280px; }
+  .node--view-mode-full.node--type-our-team .node__content, .node--view-mode-full.node--type-news .node__content {
+    display: flex;
+    max-width: 1280px;
+    margin: 30px;
+    text-align: justify;
+    flex-direction: column;
+    text-transform: capitalize;
+    justify-content: center;
+    font-size: 24px;
+    line-height: 26px; }
+    .node--view-mode-full.node--type-our-team .node__content .block-field-blocknodeour-teamtitle, .node--view-mode-full.node--type-our-team .node__content .block-field-blocknodenewstitle, .node--view-mode-full.node--type-news .node__content .block-field-blocknodeour-teamtitle, .node--view-mode-full.node--type-news .node__content .block-field-blocknodenewstitle {
+      margin: 0 0 30px 5px;
+      font-weight: 700; }
+    .node--view-mode-full.node--type-our-team .node__content p, .node--view-mode-full.node--type-news .node__content p {
+      margin: 15px 0; }
+    .node--view-mode-full.node--type-our-team .node__content .block-field-blocknodeour-teamfield-image, .node--view-mode-full.node--type-our-team .node__content .block-field-blocknodeour-teamfield-position, .node--view-mode-full.node--type-our-team .node__content .block-extra-field-blocknodeour-teamlikeit, .node--view-mode-full.node--type-news .node__content .block-field-blocknodeour-teamfield-image, .node--view-mode-full.node--type-news .node__content .block-field-blocknodeour-teamfield-position, .node--view-mode-full.node--type-news .node__content .block-extra-field-blocknodeour-teamlikeit {
+      display: flex;
+      margin-bottom: 12px; }
+    .node--view-mode-full.node--type-our-team .node__content .social-media-links--platforms, .node--view-mode-full.node--type-news .node__content .social-media-links--platforms {
+      display: flex; }
+
+.node--view-mode-full.node--type-news .node__content .block-field-blocknodenewsfield-month, .node--view-mode-full.node--type-news .node__content .block-field-blocknodenewsfield-day, .node--view-mode-full.node--type-news .node__content .block-field-blocknodenewsfield-year {
+  text-align: center; }
+.node--view-mode-full.node--type-news .node__content .field--name-field-image {
+  margin: 15px; }
+.node--view-mode-full.node--type-news .node__content .block-field-blocknodenewsfield-date-published {
+  text-transform: uppercase; }
+.node--view-mode-full.node--type-news .node__content .field--name-field-date-published {
+  float: right; }
+.node--view-mode-full.node--type-news .node__content .field--name-field-news-category a {
+  text-transform: uppercase;
+  color: #337ab7; }
+
+@media (max-width: 1310px) {
+  .node--type-initial {
+    max-width: 798px; }
+    .node--type-initial .node__content {
+      font-size: 20px;
+      line-height: 22px; }
+      .node--type-initial .node__content .field--name-title {
+        width: 768px; }
+        .node--type-initial .node__content .field--name-title::before, .node--type-initial .node__content .field--name-title::after {
+          content: "";
+          display: flex;
+          position: absolute;
+          width: 34.3%;
+          top: 50%;
+          height: 1px;
+          background-color: grey; }
+        .node--type-initial .node__content .field--name-title::before {
+          left: 0; }
+        .node--type-initial .node__content .field--name-title::after {
+          right: 0; }
+      .node--type-initial .node__content p {
+        margin: 20px 0; }
+
+  .node--type-services, .node--type-projects {
+    max-width: 798px; }
+    .node--type-services .node__content, .node--type-projects .node__content {
+      display: flex;
+      max-width: 798px;
+      margin: 30px;
+      text-align: justify;
+      flex-direction: column;
+      font-size: 20px;
+      line-height: 22px; }
+      .node--type-services .node__content .block-field-blocknodeservicestitle, .node--type-services .node__content .block-field-blocknodeprojectstitle, .node--type-projects .node__content .block-field-blocknodeservicestitle, .node--type-projects .node__content .block-field-blocknodeprojectstitle {
+        margin: 0 0 25px 5px;
+        font-weight: 700; }
+      .node--type-services .node__content img, .node--type-projects .node__content img {
+        width: 155px;
+        height: 135px;
+        float: right;
+        margin: -20px 45px 20px 30px; }
+      .node--type-services .node__content p, .node--type-projects .node__content p {
+        margin: 15px 0; }
+
+  .node--type-projects .node__content img {
+    width: 200px;
+    height: 200px; }
+
+  .node--view-mode-full.node--type-our-team img {
+    width: 250px;
+    height: 250px; }
+
+  .node--view-mode-full.node--type-our-team, .node--view-mode-full.node--type-news {
+    max-width: 798px; }
+    .node--view-mode-full.node--type-our-team .node__content, .node--view-mode-full.node--type-news .node__content {
+      max-width: 798px;
+      font-size: 20px;
+      line-height: 22px; }
+      .node--view-mode-full.node--type-our-team .node__content .block-field-blocknodeour-teamtitle, .node--view-mode-full.node--type-our-team .node__content .block-field-blocknodenewstitle, .node--view-mode-full.node--type-news .node__content .block-field-blocknodeour-teamtitle, .node--view-mode-full.node--type-news .node__content .block-field-blocknodenewstitle {
+        margin: 0 0 25px 5px; }
+      .node--view-mode-full.node--type-our-team .node__content p, .node--view-mode-full.node--type-news .node__content p {
+        margin: 15px 0; }
+      .node--view-mode-full.node--type-our-team .node__content .block-field-blocknodeour-teamfield-image, .node--view-mode-full.node--type-our-team .node__content .block-field-blocknodeour-teamfield-position, .node--view-mode-full.node--type-our-team .node__content .block-extra-field-blocknodeour-teamlikeit, .node--view-mode-full.node--type-news .node__content .block-field-blocknodeour-teamfield-image, .node--view-mode-full.node--type-news .node__content .block-field-blocknodeour-teamfield-position, .node--view-mode-full.node--type-news .node__content .block-extra-field-blocknodeour-teamlikeit {
+        margin-bottom: 10px; }
+
+  .node--view-mode-full.node--type-news .field--name-field-image {
+    margin: 15px; } }
+@media (max-width: 828px) {
+  .node--type-initial {
+    max-width: 290px; }
+    .node--type-initial .node__content {
+      font-size: 16px;
+      line-height: 20px; }
+      .node--type-initial .node__content .field--name-title {
+        width: 260px; }
+        .node--type-initial .node__content .field--name-title::before, .node--type-initial .node__content .field--name-title::after {
+          content: "";
+          display: flex;
+          position: absolute;
+          width: 28.3%;
+          top: 50%;
+          height: 1px;
+          background-color: grey; }
+        .node--type-initial .node__content .field--name-title::before {
+          left: 0; }
+        .node--type-initial .node__content .field--name-title::after {
+          right: 0; }
+      .node--type-initial .node__content p {
+        margin: 15px 0; }
+
+  .node--type-services, .node--type-projects {
+    max-width: 290px; }
+    .node--type-services .node__content, .node--type-projects .node__content {
+      display: flex;
+      max-width: 290px;
+      margin: 20px;
+      text-align: justify;
+      flex-direction: column;
+      font-size: 16px;
+      line-height: 20px; }
+      .node--type-services .node__content .block-field-blocknodeservicestitle, .node--type-services .node__content .block-field-blocknodeprojectstitle, .node--type-projects .node__content .block-field-blocknodeservicestitle, .node--type-projects .node__content .block-field-blocknodeprojectstitle {
+        margin: 0;
+        text-align: center;
+        font-weight: 700; }
+      .node--type-services .node__content .field--name-field-image, .node--type-projects .node__content .field--name-field-image {
+        display: flex;
+        justify-content: center; }
+      .node--type-services .node__content img, .node--type-projects .node__content img {
+        width: 145px;
+        height: 125px;
+        float: none;
+        margin: 15px; }
+      .node--type-services .node__content p, .node--type-projects .node__content p {
+        margin: 15px 0; }
+
+  .node--type-projects .node__content img {
+    width: 190px;
+    height: 190px; }
+
+  .node--view-mode-full.node--type-our-team, .node--view-mode-full.node--type-news {
+    max-width: 798px; }
+    .node--view-mode-full.node--type-our-team .node__content, .node--view-mode-full.node--type-news .node__content {
+      max-width: 290px;
+      font-size: 16px;
+      line-height: 20px; }
+      .node--view-mode-full.node--type-our-team .node__content .block-field-blocknodeour-teamtitle, .node--view-mode-full.node--type-our-team .node__content .block-field-blocknodenewstitle, .node--view-mode-full.node--type-news .node__content .block-field-blocknodeour-teamtitle, .node--view-mode-full.node--type-news .node__content .block-field-blocknodenewstitle {
+        margin: 0; }
+      .node--view-mode-full.node--type-our-team .node__content p, .node--view-mode-full.node--type-news .node__content p {
+        margin: 15px 0; }
+      .node--view-mode-full.node--type-our-team .node__content .block-field-blocknodeour-teamfield-image, .node--view-mode-full.node--type-our-team .node__content .block-field-blocknodeour-teamfield-position, .node--view-mode-full.node--type-our-team .node__content .block-extra-field-blocknodeour-teamlikeit, .node--view-mode-full.node--type-our-team .node__content .block-field-blocknodeour-teamtitle, .node--view-mode-full.node--type-news .node__content .block-field-blocknodeour-teamfield-image, .node--view-mode-full.node--type-news .node__content .block-field-blocknodeour-teamfield-position, .node--view-mode-full.node--type-news .node__content .block-extra-field-blocknodeour-teamlikeit, .node--view-mode-full.node--type-news .node__content .block-field-blocknodeour-teamtitle {
+        margin-bottom: 5px;
+        justify-content: center;
+        text-align: center; }
+      .node--view-mode-full.node--type-our-team .node__content .social-media-links--platforms, .node--view-mode-full.node--type-news .node__content .social-media-links--platforms {
+        justify-content: center; }
+
+  .node--view-mode-full.node--type-our-team img {
+    width: 200px;
+    height: 200px; }
+
+  .node--view-mode-full.node--type-news .block-field-blocknodenewstitle {
+    display: flex;
+    justify-content: center; }
+  .node--view-mode-full.node--type-news .field--name-field-image {
+    display: flex;
+    justify-content: center;
+    margin: 15px; }
+  .node--view-mode-full.node--type-news .field--type-text {
+    display: flex;
+    justify-content: center; }
+  .node--view-mode-full.node--type-news .field--name-field-date-published {
+    display: flex;
+    float: none; }
+  .node--view-mode-full.node--type-news .layout--twocol-section--50-50 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center; } }
+
+/*# sourceMappingURL=node.css.map */

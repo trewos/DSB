@@ -1,5 +1,7 @@
 /* Reset style CSS */
 
+@import "mixin";
+
 * {
   padding: 0;
   margin: 0;
@@ -139,4 +141,108 @@ footer {
       color: #9b9b9b;
     }
   }
+}
+
+.block-views-blockprojects-taxonomy-block-1 {
+  .view-content {
+    .views-row {
+      .views-field-term-node-tid {
+        display: none;
+      }
+    }
+  }
+}
+
+.vocabulary-services-projects, .vocabulary-news-category {
+  .field--name-name {
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+
+    &:before {
+      position: absolute;
+      bottom: 0;
+      left: 45%;
+      content: "";
+      width: 10%;
+      height: 5px;
+      background-color: #bdbdbd;
+    }
+  }
+}
+
+.block-views-blocknews-taxonomy-block-1 {
+  .view-id-news_taxonomy {
+    .view-content {
+      flex-wrap: wrap;
+      .views-row {
+        .layout--twocol-section--25-75 {
+          &:first-child {
+            .layout__region--second {
+              .block-field-blocknodenewsfield-news-category {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.node--type-our-team {
+ img {
+   filter: grayscale(100%);
+   transition: filter 0.5s;
+   &:hover {
+     filter: grayscale(0%);
+   }
+ }
+}
+.view-search-page {
+  .pager {
+    margin-top: 30px;
+    .pager__item {
+      padding: 0.4em;
+    }
+  }
+  .view-empty {
+    text-align: center;
+    width: 290px;
+    margin: 25% auto;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .view-content {
+    text-align: center;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 16px;
+    .views-row {
+      margin: 15px;
+      a {
+        color: black;
+        &:hover {
+          border-bottom: 2px solid black;
+        }
+      }
+    }
+  }
+}
+a[href="/web-development"] {
+  color: #1bbc9b;
+}
+a[href="/php-development"] {
+  color: #9b58b5;
+}
+a[href="/app-development"] {
+  color: #e84c3d;
+}
+a[href="/drupal-project"] {
+  color: #28a9e0;
 }
