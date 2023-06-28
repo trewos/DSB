@@ -101,4 +101,28 @@ footer {
 .pager .pager__item a {
   color: #9b9b9b; }
 
+.block-views-blockprojects-taxonomy-block-1 .view-content .views-row .views-field-term-node-tid {
+  display: none; }
+
+.vocabulary-services-projects .field--name-name, .vocabulary-news-category .field--name-name {
+  text-align: center;
+  padding: 15px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative; }
+  .vocabulary-services-projects .field--name-name:before, .vocabulary-news-category .field--name-name:before {
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    content: "";
+    width: 10%;
+    height: 5px;
+    background-color: #bdbdbd; }
+
+.block-views-blocknews-taxonomy-block-1 .view-id-news_taxonomy .view-content {
+  flex-wrap: wrap; }
+  .block-views-blocknews-taxonomy-block-1 .view-id-news_taxonomy .view-content .views-row .layout--twocol-section--25-75:first-child .layout__region--second .block-field-blocknodenewsfield-news-category {
+    display: none; }
+
 /*# sourceMappingURL=elements.css.map */

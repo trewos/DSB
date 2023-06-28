@@ -7,6 +7,7 @@ global:
       css/main-content.css : {}
       css/footer.css : {}
       css/pages.css : {}
+      css/node.css : {}
 content_type:
   css:
     component:

@@ -40,6 +40,8 @@
         "drupal/draggableviews": "^2.1",
         "drupal/entity_clone": "^2.0@beta",
         "drupal/google_map_field": "^2.0",
+        "drupal/image_link_formatter": "^2.1",
+        "drupal/image_url_formatter": "^1.1",
         "drupal/jquery_ui": "^1.6",
         "drupal/like": "^1.0@beta",
         "drupal/likeit": "^3.1",
