@@ -1,3 +1,5 @@
+/* Footer */
+/* Fonts */
 @font-face {
   font-family: 'Peckham';
   src: url("../font/Peckham-SemiBold.woff2") format("woff2"), url("../font/Peckham-SemiBold.woff") format("woff");
@@ -49,6 +51,7 @@ footer {
         color: #8e8d96;
         font: 15px 'Mustica Pro', sans-serif; }
 
+/* Adaptive for footer */
 @media (max-width: 1325px) {
   footer {
     padding: 70px 0 50px 0; }

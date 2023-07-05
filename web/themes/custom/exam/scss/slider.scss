@@ -1,5 +1,5 @@
+/* Slider */
 @import "mixin";
-
 .slider {
   .block-views-blockclient-block-1 {
     margin: 0 auto 9.6% auto;
@@ -9,8 +9,6 @@
     justify-content: center;
     flex-direction: column;
     text-transform: uppercase;
-
-
     h2 {
       display: flex;
       justify-content: center;
@@ -19,7 +17,6 @@
       font-weight: 700;
       margin: 0 auto 27px;
       position: relative;
-
       @include line(50%, 42.3%);
     }
     .view-content {
@@ -42,6 +39,7 @@
     }
   }
 }
+/* Adaptive for slider */
 @media (max-width: 1310px) {
   .slider {
     .block-views-blockclient-block-1 {

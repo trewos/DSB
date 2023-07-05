@@ -1,16 +1,15 @@
+/* Page`s */
 @import "mixin";
-
 #block-backgroundforpages {
   width: 100%;
   height: 200px;
   background-color: white;
-
   h2 {
     display: none;
   }
 }
-
 .main__content {
+  /* Contact Us */
   .webform-confirmation {
     text-align: center;
     margin: 15px;
@@ -33,7 +32,6 @@
   .node--type-contact-us {
     display: flex;
     width: 100%;
-
     .node__content {
       margin-top: 15px;
       display: flex;
@@ -72,8 +70,8 @@
               margin-left: 30px;
             }
             .webform-button--submit {
-              width: 185px!important;
-              height: 55px!important;
+              width: 185px !important;
+              height: 55px !important;
               border: none;
               margin: 0 auto;
               border-top: 3px solid #f5613b;
@@ -109,19 +107,17 @@
           }
         }
       }
-
       .field--name-body {
         p {
           line-height: 24px;
           margin: 5px 0 54px;
         }
       }
-
       .field--type-string {
       }
     }
   }
-
+  /* Client page */
   .block-views-blockclient-block-2 {
     .view-content {
       .views-row {
@@ -141,27 +137,19 @@
       }
     }
   }
-
-  .block-views-blockservices-block-2,
-  .block-views-blockprojects-block-2,
-  .block-views-blockour-team-block-2,
-  .block-views-blocknews-search-block-2,
-  .block-views-blockclient-block-2 {
+  /* All page setting`s */
+  .block-views-blockservices-block-2, .block-views-blockprojects-block-2, .block-views-blockour-team-block-2, .block-views-blocknews-search-block-2, .block-views-blockclient-block-2 {
     margin: 0 auto;
-
     h2 {
       margin-top: 15px !important;
     }
-
     .view-content {
       margin: 0 auto;
       flex-wrap: wrap;
     }
-
     .pager {
       margin: 75px auto 60px;
       font-size: 22px;
-
       .pager__item {
         &.is-active {
           a {
@@ -171,58 +159,47 @@
       }
     }
   }
-
+  /* Services */
   .block-views-blockservices-block-2 {
     .view-content {
       justify-content: center;
       padding-bottom: 0 !important;
-
       .views-row {
         width: 290px;
         margin: 20px 0;
-
         &:first-child {
           padding-left: 15px !important;
         }
-
         &:last-child {
           padding-right: 15px !important;
         }
       }
     }
   }
-
+  /* Project */
   .block-views-blockprojects-block-2, .block-views-blockprojects-taxonomy-block-1 {
-
     &:before {
       display: none;
     }
-
     .view-id-projects {
       .view-content {
         padding: 100px 0 0;
         justify-content: center;
-
         .views-row {
           margin: 20px 15px;
           border: none;
-
           &:first-child {
             margin-left: 15px;
           }
-
           &:last-child {
             margin-right: 15px;
           }
         }
       }
-
       .pager {
         margin: 75px auto 60px;
-
         .pager__item {
           font-size: 22px;
-
           &.is-active {
             a {
               padding: 6px 14px;
@@ -232,24 +209,20 @@
       }
     }
   }
-
+  /* Teams */
   .block-views-blockour-team-block-2 {
     .view-content {
       .views-row {
         margin: 20px 0;
-
         &:first-child, &:last-child {
           padding: 0 15px;
         }
       }
     }
-
     .pager {
       margin: 75px auto 60px;
-
       .pager__item {
         font-size: 22px;
-
         &.is-active {
           a {
             padding: 6px 14px;
@@ -258,49 +231,62 @@
       }
     }
   }
-
-  .block-views-blocknews-search-block-2 , .block-views-blocknews-taxonomy-block-1 {
+  /* Taxonomy page setting`s (News) */
+  .block-views-blocknews-taxonomy-block-1 {
+    .view-id-news_taxonomy {
+      .view-content {
+        .views-row {
+          .layout--twocol-section--25-75 {
+            &:first-child {
+              .layout__region--second {
+                .block-field-blocknodenewsfield-writer {
+                  .field__item {
+                    &:after {
+                      content: "";
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  /* News */
+  .block-views-blocknews-search-block-2, .block-views-blocknews-taxonomy-block-1 {
     &:before {
       display: none;
     }
-
     .view-news-search, .view-id-news_taxonomy {
       .view-filters {
         .form--inline {
           margin-left: 15px;
         }
       }
-
       .view-empty {
         text-align: center;
         margin: 8.5% auto;
         font-size: 30px;
         font-weight: 700;
       }
-
       .view-content {
         margin: 0 auto;
-
         .views-row {
           margin: 20px 15px;
-
           &:first-child {
             margin-left: 15px;
           }
-
           &:last-child {
             margin-right: 15px;
           }
         }
       }
     }
-
     .pager {
       margin: 75px auto 60px;
-
       .pager__item {
         font-size: 22px;
-
         &.is-active {
           a {
             padding: 6px 14px;
@@ -309,7 +295,7 @@
       }
     }
   }
-
+  /* Client`s title page */
   .block-views-blockclient-block-2 {
     h2 {
       text-transform: uppercase;
@@ -320,24 +306,20 @@
       font-weight: 700;
       margin: 0 auto 27px;
       position: relative;
-
       @include line(50%, 42.3%);
     }
-
     margin: 0 auto;
-
     img {
       width: 450px;
       height: 175px;
     }
-
     .view-content {
       justify-content: center;
       margin-bottom: 60px;
     }
   }
 }
-
+/* Adaptive for pages */
 @media (max-width: 1310px) {
   .main__content {
     .webform-confirmation {
@@ -354,7 +336,6 @@
         }
       }
     }
-
     .block-views-blockservices-block-2 {
       h2 {
         width: 768px;
@@ -362,7 +343,6 @@
         @include line(50%, 39%);
       }
     }
-
     .block-views-blockprojects-block-2, .block-views-blockprojects-taxonomy-block-1 {
       h2 {
         display: flex;
@@ -371,9 +351,7 @@
         @include line(28%, 38.8%);
       }
     }
-
     .block-views-blockour-team-block-2 {
-
       h2 {
         display: flex;
         width: 768px;
@@ -381,40 +359,32 @@
         @include line(50%, 38.5%);
       }
     }
-
     .block-views-blocknews-search-block-2 {
       h2 {
         width: 768px;
         margin: 0 auto 35px auto;
         @include line(50%, 42.6%);
       }
-
       .view {
         align-items: center;
       }
-
       .view-news-search {
         .view-empty {
           width: 768px;
           margin: 14.5% auto;
         }
-
         .view-filters {
           width: auto;
           margin: 5px 0;
         }
-
         .view-content {
           margin: 0;
           justify-content: center;
-
           .views-row {
             margin: 10px 0;
-
             &:first-child {
               margin-left: 0;
             }
-
             &:last-child {
               margin-right: 0;
             }
@@ -422,7 +392,6 @@
         }
       }
     }
-
     .block-views-blockclient-block-2 {
       h2 {
         width: 768px;
@@ -432,7 +401,6 @@
     }
   }
 }
-
 @media (max-width: 828px) {
   .main__content {
     .webform-confirmation {
@@ -470,37 +438,31 @@
         }
       }
     }
-
     .block-views-blockservices-block-2 {
       h2 {
         width: 260px;
         @include line(50%, 19.75%);
       }
     }
-
     .block-views-blockprojects-block-2, .block-views-blockprojects-taxonomy-block-1 {
       h2 {
         width: 260px;
         @include line(28%, 19.75%);
       }
     }
-
     .block-views-blockour-team-block-2 {
       h2 {
         width: 260px;
         @include line(50%, 18.5%);
       }
-
       .view-content {
         .views-row {
           .layout--twocol-section--67-33 {
             flex-direction: column;
-
             .likeit {
               display: flex;
               justify-content: center;
               margin: 0;
-
               .icon-like {
                 height: 25px;
                 margin: 8px 0 0 6px;
@@ -510,55 +472,44 @@
         }
       }
     }
-
     .block-views-blocknews-search-block-2 {
       h2 {
         width: 260px;
         @include line(50%, 31%);
         margin: 0 auto 35px auto;
       }
-
       .view {
         align-items: center;
       }
-
       .view-news-search {
         .view-filters {
           width: auto;
           margin: 5px 0;
-
           .form--inline {
             margin: 0;
-
             .form-text {
               width: 225px;
             }
           }
         }
-
         .view-empty {
           width: 290px;
           margin: 25% auto;
         }
-
         .view-content {
           .views-row {
             width: 290px;
             margin: 10px 0;
-
             .field--name-field-button {
               margin-right: 0;
             }
-
             .layout--twocol-section--25-75 {
               flex-direction: column;
-
               &:first-child {
                 .layout__region--first {
                   padding: 15px 0;
                   margin-top: 0;
                 }
-
                 .layout__region--second {
                   display: flex;
                   flex-wrap: nowrap;
@@ -567,50 +518,40 @@
                   border-left: none;
                   margin: 0 !important;
                   padding: 15px 0;
-
                   .block {
                     margin: 2px;
                   }
-
                   img {
                     margin: 0;
                   }
-
                   .block-field-blocknodenewsfield-writer {
                     .field__item {
                       margin-right: 0;
-
                       &::after {
                         content: "";
                       }
                     }
                   }
-
                   .block-field-blocknodenewsfield-when-was-the-publication {
                     margin: 0;
                   }
-
                   .field__item {
                     justify-content: flex-start;
                   }
                 }
               }
-
               .layout__region--second {
                 margin: 0 auto;
                 border-left: none;
-
                 .block-field-blocknodenewstitle {
                   font-size: 20px;
                   border-top: 1px solid grey;
                   margin: 0 15px 15px;
                   padding-top: 15px;
                 }
-
                 .field--type-text-with-summary {
                   margin: 0 15px 5px;
                 }
-
                 .block-field-blocknodenewsfield-button {
                   .field__item {
                     margin: 10px 0;
@@ -623,13 +564,11 @@
         }
       }
     }
-
     .block-views-blockclient-block-2 {
       h2 {
         width: 260px;
         @include line(50%, 24%);
       }
-
       img {
         width: 290px;
         height: 125px;
@@ -637,3 +576,4 @@
     }
   }
 }
+

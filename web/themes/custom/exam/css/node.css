@@ -1,3 +1,6 @@
+/* Mixin */
+/* Button */
+/* Title */
 .node--type-initial {
   display: flex;
   max-width: 1280px;
@@ -49,8 +52,6 @@
       margin: 0 0 30px 5px;
       font-weight: 700; }
     .node--type-services .node__content img, .node--type-projects .node__content img {
-      width: 175px;
-      height: 155px;
       float: right;
       margin: -30px 65px 30px 40px; }
     .node--type-services .node__content p, .node--type-projects .node__content p {
@@ -132,8 +133,6 @@
         margin: 0 0 25px 5px;
         font-weight: 700; }
       .node--type-services .node__content img, .node--type-projects .node__content img {
-        width: 155px;
-        height: 135px;
         float: right;
         margin: -20px 45px 20px 30px; }
       .node--type-services .node__content p, .node--type-projects .node__content p {
@@ -203,8 +202,6 @@
         display: flex;
         justify-content: center; }
       .node--type-services .node__content img, .node--type-projects .node__content img {
-        width: 145px;
-        height: 125px;
         float: none;
         margin: 15px; }
       .node--type-services .node__content p, .node--type-projects .node__content p {

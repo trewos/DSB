@@ -1,3 +1,6 @@
+/* Mixin */
+/* Button */
+/* Title */
 #block-backgroundforpages {
   width: 100%;
   height: 200px;
@@ -164,6 +167,8 @@
     font-size: 22px; }
     .main__content .block-views-blockour-team-block-2 .pager .pager__item.is-active a {
       padding: 6px 14px; }
+.main__content .block-views-blocknews-taxonomy-block-1 .view-id-news_taxonomy .view-content .views-row .layout--twocol-section--25-75:first-child .layout__region--second .block-field-blocknodenewsfield-writer .field__item:after {
+  content: ""; }
 .main__content .block-views-blocknews-search-block-2:before, .main__content .block-views-blocknews-taxonomy-block-1:before {
   display: none; }
 .main__content .block-views-blocknews-search-block-2 .view-news-search .view-filters .form--inline, .main__content .block-views-blocknews-search-block-2 .view-id-news_taxonomy .view-filters .form--inline, .main__content .block-views-blocknews-taxonomy-block-1 .view-news-search .view-filters .form--inline, .main__content .block-views-blocknews-taxonomy-block-1 .view-id-news_taxonomy .view-filters .form--inline {

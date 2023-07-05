@@ -1,3 +1,5 @@
+/* Mixin */
+/* Button */
 @mixin button {
   .views-field-field-button {
     a {
@@ -12,26 +14,6 @@
     }
   }
 }
-@mixin line ($top , $width) {
-  &::before, &::after {
-    content: "";
-    display: flex;
-    position: absolute;
-    width: $width;
-    top: $top;
-    height: 1px;
-    background-color: grey;
-  }
-
-  &::before {
-    left: 0;
-  }
-
-  &::after {
-    right: 0;
-  }
-}
-
 @mixin detalis {
   .views-field-field-button {
     a {
@@ -44,5 +26,23 @@
         background-color: #272630;
       }
     }
+  }
+}
+/* Title */
+@mixin line ($top , $width) {
+  &::before, &::after {
+    content: "";
+    display: flex;
+    position: absolute;
+    width: $width;
+    top: $top;
+    height: 1px;
+    background-color: grey;
+  }
+  &::before {
+    left: 0;
+  }
+  &::after {
+    right: 0;
   }
 }

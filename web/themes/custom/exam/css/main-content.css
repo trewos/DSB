@@ -1,3 +1,5 @@
+/* Main-content */
+/* Fonts */
 @font-face {
   font-family: 'Peckham';
   src: url("../font/Peckham-SemiBold.woff2") format("woff2"), url("../font/Peckham-SemiBold.woff") format("woff");
@@ -22,13 +24,23 @@
   font-weight: 700;
   font-style: normal;
   font-display: swap; }
+/* Mixin */
+/* Button */
+/* Title */
 .main__content {
   max-width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  /* About */
+  /* Services */
+  /* Project */
+  /* Teams */
+  /* News */
+  /* Global setting`s for view */ }
   .main__content .block-views-blockabout-block-1 {
+    position: relative;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -435,35 +447,7 @@
     max-width: 1280px;
     flex-direction: row; }
 
-.slider .block-views-blockclient-block-1 {
-  margin: 0 auto;
-  padding: 0 15px;
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-  text-transform: uppercase;
-  margin-bottom: 9.6%; }
-  .slider .block-views-blockclient-block-1 h2 {
-    display: flex;
-    justify-content: center;
-    width: 1250px;
-    font-size: 28px;
-    font-weight: 700;
-    margin: 0 auto 70px;
-    position: relative; }
-    .slider .block-views-blockclient-block-1 h2::before, .slider .block-views-blockclient-block-1 h2::after {
-      content: "";
-      display: flex;
-      position: absolute;
-      width: 42.3%;
-      top: 50%;
-      height: 1px;
-      background-color: grey; }
-    .slider .block-views-blockclient-block-1 h2::before {
-      left: 0; }
-    .slider .block-views-blockclient-block-1 h2::after {
-      right: 0; }
-
+/* Adaptive for main-content */
 @media (max-width: 1310px) {
   .main__content .view-content {
     display: flex;

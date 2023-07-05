@@ -1,11 +1,10 @@
+/* Footer */
 @import "fonts";
-
 footer {
   padding: 75px 0 55px 0;
   width: 100%;
   background-color: #373645;
   border-bottom: 5px solid #494955;
-
   .region-footer {
     text-align: center;
     margin: 0 auto;
@@ -14,11 +13,9 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     .block-system-branding-block {
       margin-left: 25px;
       text-align: center;
-
       .site-name a {
         color: #658ab3;
         font: 32px 'Peckham', sans-serif;
@@ -26,7 +23,6 @@ footer {
         font-weight: 600;
         padding: 0;
       }
-
       .site-slogan {
         margin-top: -8px;
         color: #8e8d96;
@@ -35,7 +31,7 @@ footer {
     }
   }
 }
-
+/* Adaptive for footer */
 @media (max-width: 1325px) {
   footer {
     padding: 70px 0 50px 0;
@@ -44,16 +40,13 @@ footer {
     }
   }
 }
-
 @media (max-width: 1200px) {
   footer {
     padding: 65px 0 45px 0;
     .region-footer {
       max-width: 992px;
-
       .block-system-branding-block {
         margin-left: 15px;
-
         .site-name a {
           font-size: 26px;
         }
@@ -65,16 +58,13 @@ footer {
     }
   }
 }
-
 @media (max-width: 992px) {
   footer {
     padding: 60px 0 40px 0;
     .region-footer {
       max-width: 667px;
-
       .block-system-branding-block {
         margin-left: 5px;
-
         .site-name a {
           font-size: 20px;
         }
@@ -102,3 +92,4 @@ footer {
     }
   }
 }
+

@@ -1,3 +1,4 @@
+/* Header */
 header {
   width: 100%; }
   header .header-menu {
@@ -81,17 +82,16 @@ header {
             header .header-menu .region-header .menu li:first-child a.is-active:before {
               bottom: -29px; }
       header .header-menu .region-header .block-views-exposed-filter-blocksearch-page-page-1 {
+        position: relative;
         margin-left: 25px;
         padding-right: 32px; }
-        header .header-menu .region-header .block-views-exposed-filter-blocksearch-page-page-1 .form-item-search-api-fulltext {
-          position: relative; }
-          header .header-menu .region-header .block-views-exposed-filter-blocksearch-page-page-1 .form-item-search-api-fulltext input {
-            width: 210px;
-            display: flex;
-            align-items: center;
-            height: 40px;
-            padding: 0 0 0 8px;
-            border: 1px solid #dedede; }
+        header .header-menu .region-header .block-views-exposed-filter-blocksearch-page-page-1 .form-item-search-api-fulltext input {
+          width: 210px;
+          display: flex;
+          align-items: center;
+          height: 40px;
+          padding: 0 0 0 8px;
+          border: 1px solid #dedede; }
         header .header-menu .region-header .block-views-exposed-filter-blocksearch-page-page-1 .form-item {
           margin: 0; }
         header .header-menu .region-header .block-views-exposed-filter-blocksearch-page-page-1 .form-submit {
@@ -138,6 +138,7 @@ header {
         padding: 0 4px;
         line-height: 16px; }
 
+/* Adaptive for header */
 @media (max-width: 1280px) {
   header .header-menu .region-header {
     max-width: 992px; }
