@@ -1,6 +1,7 @@
 /* Mixin */
 /* Button */
 /* Title */
+/* About node */
 .node--type-initial {
   display: flex;
   max-width: 1280px;
@@ -36,6 +37,7 @@
     .node--type-initial .node__content p {
       margin: 25px 0; }
 
+/* Services and project node */
 .node--type-services, .node--type-projects {
   max-width: 1280px; }
   .node--type-services .node__content, .node--type-projects .node__content {
@@ -57,10 +59,12 @@
     .node--type-services .node__content p, .node--type-projects .node__content p {
       margin: 15px 0; }
 
+/* Project setting`s node */
 .node--type-projects .node__content img {
   width: 240px;
   height: 240px; }
 
+/* Teams and news setting`s node */
 .node--view-mode-full.node--type-our-team, .node--view-mode-full.node--type-news {
   max-width: 1280px; }
   .node--view-mode-full.node--type-our-team .node__content, .node--view-mode-full.node--type-news .node__content {
@@ -84,6 +88,7 @@
     .node--view-mode-full.node--type-our-team .node__content .social-media-links--platforms, .node--view-mode-full.node--type-news .node__content .social-media-links--platforms {
       display: flex; }
 
+/* News node */
 .node--view-mode-full.node--type-news .node__content .block-field-blocknodenewsfield-month, .node--view-mode-full.node--type-news .node__content .block-field-blocknodenewsfield-day, .node--view-mode-full.node--type-news .node__content .block-field-blocknodenewsfield-year {
   text-align: center; }
 .node--view-mode-full.node--type-news .node__content .field--name-field-image {
@@ -96,6 +101,7 @@
   text-transform: uppercase;
   color: #337ab7; }
 
+/* Adaptive for node */
 @media (max-width: 1310px) {
   .node--type-initial {
     max-width: 798px; }

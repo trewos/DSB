@@ -1,3 +1,4 @@
+/* Slider */
 /* Mixin */
 /* Button */
 /* Title */
@@ -45,6 +46,7 @@
       padding: 0;
       max-width: 130px; }
 
+/* Adaptive for slider */
 @media (max-width: 1310px) {
   .slider .block-views-blockclient-block-1 h2 {
     width: 768px;

@@ -147,7 +147,7 @@
       left: 50%;
       z-index: -1;
       transform: translateX(-50%);
-      width: 100vw;
+      width: 99.1vw;
       height: calc(100% - 48px);
       position: absolute;
       background: repeating-linear-gradient(-45deg, #eee, #eee 1px, #fff 2px, #fff 10px); }
@@ -293,7 +293,7 @@
       top: 56px;
       left: 50%;
       transform: translateX(-50%);
-      width: 100vw;
+      width: 99.1vw;
       height: calc(100% - 48px);
       position: absolute;
       background: repeating-linear-gradient(-45deg, #eee, #eee 1px, #fff 2px, #fff 10px); }
@@ -556,6 +556,102 @@
       margin: 10px 0; } }
 @media (max-width: 828px) {
   .main__content .view-content {
+    max-width: 567px; }
+    .main__content .view-content .views-row {
+      padding: 0;
+      margin: 5px; }
+  .main__content .block-views-blockabout-block-1 .view-content .views-row {
+    width: 567px;
+    text-align: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0; }
+    .main__content .block-views-blockabout-block-1 .view-content .views-row .views-field-body {
+      font-size: 18px; }
+    .main__content .block-views-blockabout-block-1 .view-content .views-row .field-content {
+      padding: 10px 0; }
+  .main__content .block-views-blockservices-block-1 {
+    padding: 0; }
+    .main__content .block-views-blockservices-block-1 h2 {
+      width: 447px; }
+      .main__content .block-views-blockservices-block-1 h2::before, .main__content .block-views-blockservices-block-1 h2::after {
+        content: "";
+        display: flex;
+        position: absolute;
+        width: 29.75%;
+        top: 50%;
+        height: 1px;
+        background-color: grey; }
+      .main__content .block-views-blockservices-block-1 h2::before {
+        left: 0; }
+      .main__content .block-views-blockservices-block-1 h2::after {
+        right: 0; }
+    .main__content .block-views-blockservices-block-1 .view-content .views-row {
+      width: 220px;
+      padding: 0;
+      margin: 15px 10px; }
+  .main__content .block-views-blockprojects-block-1 h2, .main__content .block-views-blockprojects-taxonomy-block-1 h2 {
+    width: 447px; }
+    .main__content .block-views-blockprojects-block-1 h2::before, .main__content .block-views-blockprojects-block-1 h2::after, .main__content .block-views-blockprojects-taxonomy-block-1 h2::before, .main__content .block-views-blockprojects-taxonomy-block-1 h2::after {
+      content: "";
+      display: flex;
+      position: absolute;
+      width: 29.75%;
+      top: 28%;
+      height: 1px;
+      background-color: grey; }
+    .main__content .block-views-blockprojects-block-1 h2::before, .main__content .block-views-blockprojects-taxonomy-block-1 h2::before {
+      left: 0; }
+    .main__content .block-views-blockprojects-block-1 h2::after, .main__content .block-views-blockprojects-taxonomy-block-1 h2::after {
+      right: 0; }
+  .main__content .block-views-blockprojects-block-1 img, .main__content .block-views-blockprojects-taxonomy-block-1 img {
+    width: 225px;
+    height: 225px; }
+  .main__content .block-views-blockour-team-block-1 h2 {
+    width: 447px; }
+    .main__content .block-views-blockour-team-block-1 h2::before, .main__content .block-views-blockour-team-block-1 h2::after {
+      content: "";
+      display: flex;
+      position: absolute;
+      width: 29.5%;
+      top: 50%;
+      height: 1px;
+      background-color: grey; }
+    .main__content .block-views-blockour-team-block-1 h2::before {
+      left: 0; }
+    .main__content .block-views-blockour-team-block-1 h2::after {
+      right: 0; }
+  .main__content .block-views-blockour-team-block-1 img {
+    width: 225px;
+    height: 225px; }
+  .main__content .block-views-blockour-team-block-1 .view-content .views-row {
+    padding: 0; }
+    .main__content .block-views-blockour-team-block-1 .view-content .views-row .layout--twocol-section--67-33 {
+      flex-direction: column; }
+      .main__content .block-views-blockour-team-block-1 .view-content .views-row .layout--twocol-section--67-33 .likeit {
+        display: flex;
+        justify-content: center;
+        margin: 0; }
+        .main__content .block-views-blockour-team-block-1 .view-content .views-row .layout--twocol-section--67-33 .likeit .icon-like {
+          height: 25px;
+          margin: 8px 0 0 6px; }
+  .main__content .block-views-blocknews-search-block-1 h2, .main__content .block-views-blocknews-taxonomy-block-1 h2 {
+    width: 447px;
+    margin: 0 auto 35px auto; }
+    .main__content .block-views-blocknews-search-block-1 h2::before, .main__content .block-views-blocknews-search-block-1 h2::after, .main__content .block-views-blocknews-taxonomy-block-1 h2::before, .main__content .block-views-blocknews-taxonomy-block-1 h2::after {
+      content: "";
+      display: flex;
+      position: absolute;
+      width: 36.8%;
+      top: 50%;
+      height: 1px;
+      background-color: grey; }
+    .main__content .block-views-blocknews-search-block-1 h2::before, .main__content .block-views-blocknews-taxonomy-block-1 h2::before {
+      left: 0; }
+    .main__content .block-views-blocknews-search-block-1 h2::after, .main__content .block-views-blocknews-taxonomy-block-1 h2::after {
+      right: 0; } }
+@media (max-width: 597px) {
+  .main__content .view-content {
     max-width: 290px;
     display: flex;
     justify-content: center;
@@ -608,6 +704,9 @@
       left: 0; }
     .main__content .block-views-blockprojects-block-1 h2::after, .main__content .block-views-blockprojects-taxonomy-block-1 h2::after {
       right: 0; }
+  .main__content .block-views-blockprojects-block-1 img, .main__content .block-views-blockprojects-taxonomy-block-1 img {
+    width: 290px;
+    height: 290px; }
   .main__content .block-views-blockour-team-block-1 h2 {
     width: 260px; }
     .main__content .block-views-blockour-team-block-1 h2::before, .main__content .block-views-blockour-team-block-1 h2::after {
@@ -622,6 +721,9 @@
       left: 0; }
     .main__content .block-views-blockour-team-block-1 h2::after {
       right: 0; }
+  .main__content .block-views-blockour-team-block-1 img {
+    width: 290px;
+    height: 290px; }
   .main__content .block-views-blockour-team-block-1 .view-content .views-row {
     padding: 0; }
     .main__content .block-views-blockour-team-block-1 .view-content .views-row .layout--twocol-section--67-33 {
