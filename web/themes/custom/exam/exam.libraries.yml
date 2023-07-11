@@ -1,17 +1,7 @@
 global:
   css:
     theme:
-      css/elements.css : {}
-    component:
-      css/header.css : {}
-      css/main-content.css : {}
-      css/footer.css : {}
-      css/pages.css : {}
-      css/node.css : {}
-content_type:
-  css:
-    component:
-      css/slider.css : {}
+      css/style.css : {}
 js-code:
   js:
     js/main.js: { }

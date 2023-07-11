@@ -6,7 +6,6 @@ core_version_requirement: 9.x
 
 libraries:
   - exam/global
-  - exam/content_type
   - exam/js-code
 
 regions:
