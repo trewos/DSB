@@ -1,0 +1,99 @@
+/* Teams */
+@import "mixin";
+.block-views-blockour-team-block-1, .block-views-blockour-team-block-2 {
+  margin: 0 auto 190px;
+  padding: 0 15px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  text-transform: uppercase;
+
+  h2 {
+    display: flex;
+    justify-content: center;
+    width: 1250px;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0 15px;
+    position: relative;
+    @include line(50%, 42.3%);
+  }
+
+  .view-content {
+    padding: 35px 0 0;
+    align-items: center;
+
+    .views-row {
+      padding: 0 15px;
+
+      .node--view-mode-teaser {
+        h2 {
+          display: none;
+        }
+      }
+
+      &:first-child {
+        padding-left: 0;
+      }
+
+      &:last-child {
+        padding-right: 0;
+      }
+
+      .block-field-blocknodeour-teamfield-image {
+        padding-bottom: 38px;
+      }
+
+      .field--name-title {
+        font-size: 24px;
+      }
+
+      .field--name-field-position {
+        font-size: 13px;
+        margin: 2px 0 27px;
+      }
+
+      .field--name-field-button {
+        a {
+          color: white;
+          background-color: #373645;
+          font-size: 16px;
+          letter-spacing: -1px;
+          padding: 6px;
+
+          &:hover {
+            background-color: #272630;
+          }
+        }
+
+        margin-bottom: 24px;
+      }
+
+      .social-media-links--platforms {
+        margin-left: -2px;
+
+        li {
+          padding: 0.2em 3px !important;
+        }
+
+        span {
+          font-size: 28px;
+          color: #6e9bca;
+        }
+      }
+
+      .likeit {
+        margin-top: 4px;
+
+        .count {
+          display: none;
+        }
+
+        .icon-like {
+          height: 15px;
+          margin: 6px 0 0 25px;
+        }
+      }
+    }
+  }
+}

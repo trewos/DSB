@@ -1,0 +1,58 @@
+/* Services */
+@import "mixin";
+.block-views-blockservices-block-1, .block-views-blockservices-block-2 {
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  text-transform: uppercase;
+
+  h2 {
+    display: flex;
+    justify-content: center;
+    width: 1250px;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0 15px;
+    position: relative;
+    @include line(50%, 42.45%);
+  }
+
+  .view-content {
+    padding: 100px 15px 116px;
+    align-items: center;
+
+    .views-row {
+      padding: 0 15px;
+
+      &:first-child {
+        padding-left: 0;
+      }
+
+      &:last-child {
+        padding-right: 0;
+      }
+
+      .views-field-field-image {
+        padding-bottom: 30px;
+      }
+
+      .views-field-title {
+        font-size: 23px;
+        letter-spacing: -2px;
+        margin-bottom: 15px;
+        color: #3e3d4c;
+      }
+
+      .views-field-body {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 30px;
+        color: #dedede;
+      }
+
+      @include button;
+    }
+  }
+}

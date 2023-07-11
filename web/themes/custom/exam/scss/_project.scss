@@ -1,0 +1,90 @@
+/* Project */
+@import "mixin";
+.block-views-blockprojects-block-1, .block-views-blockprojects-block-2, .block-views-blockprojects-taxonomy-block-1 {
+  margin: 0 auto 100px auto;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  text-transform: uppercase;
+  position: relative;
+
+  &:before {
+    content: "";
+    top: 48px;
+    left: 50%;
+    z-index: -1;
+    transform: translateX(-50%);
+    width: 99.1vw;
+    height: calc(100% - 48px);
+    position: absolute;
+    background: repeating-linear-gradient(-45deg, #eee, #eee 1px, #fff 2px, #fff 10px);
+  }
+
+  h2 {
+    display: flex;
+    justify-content: center;
+    width: 1250px;
+    font-size: 28px;
+    font-weight: 100;
+    letter-spacing: -1px;
+    margin: 0 30px;
+    padding-bottom: 20px;
+    position: relative;
+    @include line(25%, 42.45%);
+  }
+
+  .view-id-projects, .view-id-projects_taxonomy {
+    .view-content {
+      padding: 72px 15px 54px;
+      align-items: center;
+
+      .views-row {
+        margin: 0 15px;
+        background-color: white;
+        border-bottom: 1px solid black;
+
+        &:first-child {
+          margin-left: 0;
+        }
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        .views-field-field-image {
+          padding-bottom: 30px;
+        }
+
+        .views-field-title {
+          font-size: 24px;
+          margin: 8px 0;
+        }
+
+        .views-field-term-node-tid {
+          margin: 12px 0;
+          font-size: 15px;
+        }
+
+        .views-field-field-button {
+          margin: 26px 0 20px;
+        }
+
+        @include detalis;
+      }
+    }
+
+    .pager {
+      margin-bottom: 160px;
+
+      .pager__item {
+        font-size: 18px;
+
+        &.is-active {
+          a {
+            padding: 6px 12px;
+          }
+        }
+      }
+    }
+  }
+}
